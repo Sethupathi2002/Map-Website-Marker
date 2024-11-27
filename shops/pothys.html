@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pothys Style E-Commerce</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+        }
+
+        h1,
+        h2,
+        h3 {
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        /* Header Styles */
+        .header {
+            background-image: url(https://s3.ap-south-1.amazonaws.com/www.pothys.com/hbannersmall1.jpg%3Fv%3D1732106417?v=1732645800);
+            background-size: cover;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        .header .logo {
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        .header nav {
+            margin-top: 10px;
+        }
+
+        .header nav a {
+            color: white;
+            padding: 0 15px;
+            font-size: 18px;
+        }
+
+        /* Main Content */
+        .main-content {
+            padding: 20px;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .product-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .product-card img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .product-card h3 {
+            color: #333;
+            margin: 15px 0;
+        }
+
+        .product-card .price {
+            font-size: 18px;
+            color: green;
+        }
+
+        /* Footer Styles */
+        .footer {
+            background-color: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer a {
+            color: white;
+            padding: 0 10px;
+        }
+
+        .footer .social-icons a {
+            margin: 0 10px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <div class="header">
+        <div class="logo">Pothys</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">Offers</a>
+            <a href="#">Contact</a>
+        </nav>
+    </div>
+
+    <!-- Main Content Section -->
+    <div class="main-content">
+        <h2>Our Latest Products</h2>
+        <div class="products">
+            <div class="product-card">
+                <img src="https://dm1ll01jrnse4.cloudfront.net/optimize/opti_217437_1891963133_img0.jpg"
+                    alt="Product 1">
+                <h3>Maroon material catalog churidar, intricately printed top, contrast pants & uniquely printed dupatta
+                    CMK408</h3>
+                <p class="price">&#8377;899</p>
+                <a href="#">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="https://dm1ll01jrnse4.cloudfront.net/optimize/opti_217436_1891963132_img0.jpg"
+                    alt="Product 2">
+                <h3>Grey material catalog churidar, intricately printed top, contrast pants & uniquely printed dupatta
+                    CMK407</h3>
+                <p class="price">&#8377;816</p>
+                <a href="#">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="https://pothysdress.s3.ap-south-1.amazonaws.com/217435_1891963131_img0.jpg" alt="Product 3">
+                <h3>Blue material catalog churidar, intricately printed top, contrast pants & uniquely printed dupatta
+                    CMK406</h3>
+                <p class="price">&#8377;900</p>
+                <a href="#">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <p>Follow us on social media!</p>
+        <div class="social-icons">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
+        <p>&copy; 2024 Pothys. All Rights Reserved.</p>
+    </div>
+
+</body>
+
+</html>
